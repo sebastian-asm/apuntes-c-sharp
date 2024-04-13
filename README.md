@@ -22,3 +22,7 @@ Existe la posibilidad de modificar el acceso de las propiedades de la clase medi
 **Interfaces**: esta una especia de "contrato" que las clases deben cumplir, aplicando los métodos y propiedades que indica la interface.
 
 **Generics**: nos permite reutilizar código, por convención de utiliza la letra *T*, o sea, `<T>`.
+
+## List
+
+Una *List* es un objecto que está preparado con una gran colección métodos listos para usar en los datos. A diferencia de un array al que se le tiene que indicar su longitud, en una list no es necesario, en este aspecto es mucho más flexible. Conmunmente para trabajar con List se agrega el paquete `using System.Collections.Generic`.
