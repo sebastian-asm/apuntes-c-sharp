@@ -2,6 +2,16 @@
 
 Lenguage fuertemente tipado, lo que significa que a las variables hay que indicarles un tipo de dato para especificar su alcance (int, double, char, string o boolean). En C# el punto y coma (;) es necesario al terminar de cada línea para indicar su finalización.
 
+El lenguaje nos permite crear objetos anónimos, o sea, sin necesidad de definir una clase para luego crear la instancia. La desventaja de crear uno anónimo es que solo es de lectura, su contenido no se puede modificar. 
+
+```c#
+var people = new 
+{
+	Name = "Seba",
+	Country = "Chile"
+};
+```
+
 ## POO
 
 C# es multiparadigma y uno de ellos es la Programación Orientada a Objetos siendo uno de los más utilizado basado en clases y objetos.
@@ -26,3 +36,7 @@ Existe la posibilidad de modificar el acceso de las propiedades de la clase medi
 ## List
 
 Una *List* es un objecto que está preparado con una gran colección métodos listos para usar en los datos. A diferencia de un array al que se le tiene que indicar su longitud, en una list no es necesario, en este aspecto es mucho más flexible. Conmunmente para trabajar con List se agrega el paquete `using System.Collections.Generic`.
+
+## Tuple (Tuplas)
+
+Lista de variables que pueden ser de distinto tipo. A diferencia de un objeto anónimo, la tupla sí permite modificar su contenido. Cuando se crea un tupla en base a un array, todos los registros deben contar con los mismo tipos de datos y orden.

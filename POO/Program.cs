@@ -83,6 +83,8 @@ string json = JsonSerializer.Serialize(beer);
 Beer beer2 = JsonSerializer.Deserialize<Beer>(json);
 Console.WriteLine(json);
 
+// ***********************
+
 class Sale
 {
     // propiedades
