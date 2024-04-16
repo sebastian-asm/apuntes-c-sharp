@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List", "List\List.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuple", "Tuple\Tuple.csproj", "{EB0E5C7E-4F73-4838-A5E8-65F73D01BF27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Exceptions.csproj", "{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ", "LINQ\LINQ.csproj", "{7CE5C72A-F9EB-4A89-8FAE-7FDAD56982DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE5C72A-F9EB-4A89-8FAE-7FDAD56982DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE5C72A-F9EB-4A89-8FAE-7FDAD56982DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE5C72A-F9EB-4A89-8FAE-7FDAD56982DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE5C72A-F9EB-4A89-8FAE-7FDAD56982DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

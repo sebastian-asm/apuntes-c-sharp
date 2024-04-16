@@ -44,3 +44,6 @@ Lista de variables que pueden ser de distinto tipo. A diferencia de un objeto an
 ## Exceptions
 
 Nos permiten controlar situaciones inesperadas, como puede ser que la conexión a la db este caída o algún servicio, que un archivo no exista, o que se espera un int y llegue un string. Esto se hace mediante un `try catch`, que aunque el programa tenga un error, puede seguir adelante.  
+## LINQ
+
+Es una extensión del lenguaje que nos permite trabajar con colecciones (array o list) de manera más sencilla y declarativa, como si se tratara de SQL.
