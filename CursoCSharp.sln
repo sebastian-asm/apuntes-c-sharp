@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POO", "POO\POO.csproj", "{0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Introduccion", "Introduccion\Introduccion.csproj", "{74B2F27D-B177-44F6-9E93-784BCA255B8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List", "List\List.csproj", "{BF15665E-8B4A-4AB8-8CA9-A39B4ADDE2D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "List", "List\List.csproj", "{BF15665E-8B4A-4AB8-8CA9-A39B4ADDE2D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tuple", "Tuple\Tuple.csproj", "{EB0E5C7E-4F73-4838-A5E8-65F73D01BF27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exceptions", "Exceptions\Exceptions.csproj", "{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{BF15665E-8B4A-4AB8-8CA9-A39B4ADDE2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF15665E-8B4A-4AB8-8CA9-A39B4ADDE2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF15665E-8B4A-4AB8-8CA9-A39B4ADDE2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0E5C7E-4F73-4838-A5E8-65F73D01BF27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0E5C7E-4F73-4838-A5E8-65F73D01BF27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0E5C7E-4F73-4838-A5E8-65F73D01BF27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0E5C7E-4F73-4838-A5E8-65F73D01BF27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4C4F6EE-34F4-4DAE-B844-1D90BA3DAB37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

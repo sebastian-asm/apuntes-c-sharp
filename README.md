@@ -40,3 +40,7 @@ Una *List* es un objecto que está preparado con una gran colección métodos li
 ## Tuple (Tuplas)
 
 Lista de variables que pueden ser de distinto tipo. A diferencia de un objeto anónimo, la tupla sí permite modificar su contenido. Cuando se crea un tupla en base a un array, todos los registros deben contar con los mismo tipos de datos y orden.
+
+## Exceptions
+
+Nos permiten controlar situaciones inesperadas, como puede ser que la conexión a la db este caída o algún servicio, que un archivo no exista, o que se espera un int y llegue un string. Esto se hace mediante un `try catch`, que aunque el programa tenga un error, puede seguir adelante.  
