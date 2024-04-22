@@ -44,6 +44,15 @@ Lista de variables que pueden ser de distinto tipo. A diferencia de un objeto an
 ## Exceptions
 
 Nos permiten controlar situaciones inesperadas, como puede ser que la conexión a la db este caída o algún servicio, que un archivo no exista, o que se espera un int y llegue un string. Esto se hace mediante un `try catch`, que aunque el programa tenga un error, puede seguir adelante.  
+
 ## LINQ
 
-Es una extensión del lenguaje que nos permite trabajar con colecciones (array o list) de manera más sencilla y declarativa, como si se tratara de SQL.
+Es una extensión del lenguaje que nos permite trabajar con colecciones (array o list) de manera más sencilla y declarativa, como si se tratara de SQL. También se puede usar su sintaxis junto a Entity Framework.
+
+## Entity Framework
+
+Es un ORM que vienen por defecto en .NET, el cual nos permite trabajar la interacción con la base de datos sin necesidad de realizar queries de forma nativa en SQL, más bien, con EF se utilizan objetos y clases. Pasos para agregar el framework:
+1. Crear un nuevo proyecto (usando la plantilla *Bibliteca de clases*)
+2. En *Dependencias* agregar con el administrador *NuGet* los paquetes `Microsoft.EntityFrameworkCore.SqlServer`, `Microsoft.EntityFrameworkCore.Tools` y `Microsoft.EntityFrameworkCore`
+3. En *Herramientas*, luego *Administrador de paquetes NuGet* abrir *Consola del administrador de paquetes*
+4. Usar la consola (indicando el proyecto predeterminado) para mapear la base de datos con el comando `Scaffold-DbContext "Server=.; Database=CSharpDB; User Id=sa; Password=Password1" Microsoft.EntityFrameworkCore.SqlServer` 

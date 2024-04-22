@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exceptions", "Exceptions\Ex
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LINQ", "LINQ\LINQ.csproj", "{7CE5C72A-F9EB-4A89-8FAE-7FDAD56982DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQL", "SQL\SQL.csproj", "{1B310620-22D2-40B9-9D1C-409C0BE671DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQL", "SQL\SQL.csproj", "{1B310620-22D2-40B9-9D1C-409C0BE671DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB", "DB\DB.csproj", "{83E07313-00B4-4B74-92FB-DA6A1D0530B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkDemo", "EntityFrameworkDemo\EntityFrameworkDemo.csproj", "{646E652E-594C-4587-A6EC-DF721495D885}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{1B310620-22D2-40B9-9D1C-409C0BE671DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B310620-22D2-40B9-9D1C-409C0BE671DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B310620-22D2-40B9-9D1C-409C0BE671DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83E07313-00B4-4B74-92FB-DA6A1D0530B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83E07313-00B4-4B74-92FB-DA6A1D0530B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83E07313-00B4-4B74-92FB-DA6A1D0530B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83E07313-00B4-4B74-92FB-DA6A1D0530B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{646E652E-594C-4587-A6EC-DF721495D885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646E652E-594C-4587-A6EC-DF721495D885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646E652E-594C-4587-A6EC-DF721495D885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646E652E-594C-4587-A6EC-DF721495D885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
