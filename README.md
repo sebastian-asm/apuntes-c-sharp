@@ -56,3 +56,14 @@ Es un ORM que vienen por defecto en .NET, el cual nos permite trabajar la intera
 2. En *Dependencias* agregar con el administrador *NuGet* los paquetes `Microsoft.EntityFrameworkCore.SqlServer`, `Microsoft.EntityFrameworkCore.Tools` y `Microsoft.EntityFrameworkCore`
 3. En *Herramientas*, luego *Administrador de paquetes NuGet* abrir *Consola del administrador de paquetes*
 4. Usar la consola (indicando el proyecto predeterminado) para mapear la base de datos con el comando `Scaffold-DbContext "Server=.; Database=CSharpDB; User Id=sa; Password=Password1" Microsoft.EntityFrameworkCore.SqlServer` 
+
+## Paradigma Funcional
+
+C# puede trabajar tanto con POO como con este paradigma (aunque no de manera pura), el cual se centra en el uso de funciones. En C# se usan las clases y definiciones en la parte inferior del código. 
+
+- **Delegado**: es una forma de definción de un tipo de función, donde el resultado de esa función se puede guardar en una variable.
+	- *Action*: delegado génerico que recibe parámetros pero no retorna nada.
+	- *Func*: a diferencia de un Action, este siempre devuelve un valor, y el último tipo que se indica es el que se retorna, en este ejemplo: `Func<int, string>` retornará un string.
+	- *Predicate*: recibe solo un parámetro y siempre devuelve un booleano (true o false).
+- **Función de primer orden y de orden superior**: una de *orden superior* es aquella que puede recibir otras funciones como parámetros, y aquellas recibidas son de *primer orden*.
+- **Expresiones Lambda**: una forma de escribir una función anónima de manera más rápida con la sintaxis `() =>`.
